@@ -128,7 +128,7 @@ const AddToCartButton = styled.button`
 `;
 
 const EnhancedTshirtShowcase = styled.div`
-  background-image: url("public/xamples/014.png");
+  background-image: url("xamples/014.png");
   background-color: #ffffff;
   padding: 30px;
   border: 1px solid #ddd;
