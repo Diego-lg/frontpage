@@ -74,10 +74,10 @@ const DisplayScreenshot = ({ screenshot, downloadImage }) => (
 
 const Scene = ({ triggerScreenshot, setScreenshot }) => {
   const textures = useLoader(TextureLoader, [
-    "src/assets/tshirt/fabric_167_ambientocclusion-4K.png",
-    "src/assets/tshirt/fabric_167_basecolor-4K.png",
-    "src/assets/tshirt/fabric_167_normal-4K.png",
-    "src/assets/tshirt/fabric_167_roughness-4K.png",
+    "tshirt/fabric_167_ambientocclusion-4K.png",
+    "tshirt/fabric_167_basecolor-4K.png",
+    "tshirt/fabric_167_normal-4K.png",
+    "tshirt/fabric_167_roughness-4K.png",
   ]);
 
   const material = useMemo(
